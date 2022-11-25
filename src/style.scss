@@ -1,0 +1,38 @@
+.todo {
+    background-color: gray;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .events {
+        background-color: darkslategray;
+        padding: 20px 60px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        span {
+            color:azure;
+            margin-top: 10px;
+        }
+    }
+
+    .tasks {
+
+        .taskcontent {
+            background-color: darkslategray;
+            padding: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+            p {
+                color:azure;
+                font-size: 40px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
